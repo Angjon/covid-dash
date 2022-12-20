@@ -62,7 +62,7 @@ We named the bot as "Helo" and she was trained to understand questions asked in 
  
 
 ## Authors
-Lucas Angulski <br>
+Jonas Angulski <br>
 
   
   sources: https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
