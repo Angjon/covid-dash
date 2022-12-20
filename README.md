@@ -6,8 +6,9 @@
 <h1 align="center"> 🧮 Dashboard with Python | Covid dashboard </h1>
 
 ## Project Status
-:heavy_check_mark: Complete
-Dashboard available at: <a href="http://jonasangulski.pythonanywhere.com/" target='_blank'>Corona Dashboard </a>
+<p>:heavy_check_mark: Complete<p>
+
+<p>Dashboard available at: <a href="http://jonasangulski.pythonanywhere.com/" target='_blank'>Corona Dashboard </a> <p>
 
 ## Table of Contents 
 - [Objective](#objective)
