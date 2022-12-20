@@ -34,7 +34,7 @@ The objective of this project is to build an interactive USA, Brazil and worldwi
 
 
 ## Virtual Environment
-******
+idk wtf imdoin
 
 ## Getting the data
 The data for USA and world can be found in the <a href="https://github.com/CSSEGISandData/COVID-19" target='_blank'>John Hopkins COVID-19 GitHub repository. </a> While for Brazil the data is available in CSV format at <a href="https://covid.saude.gov.br/" target='_blank'>Ministry of Health website.</a> The data keeps track of all cases and deaths sorted by either country or state, therefor, containing all information needed for the project.
