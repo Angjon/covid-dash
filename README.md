@@ -6,7 +6,9 @@
 <h1 align="center"> 🧮 Dashboard with Python | Covid dashboard </h1>
 
 ## Project Status
-:heavy_check_mark: Complete
+<p>:heavy_check_mark: Complete<p>
+
+<p>Dashboard available at: <a href="http://jonasangulski.pythonanywhere.com/" target='_blank'>Corona Dashboard </a> <p>
 
 ## Table of Contents 
 - [Objective](#objective)
@@ -17,24 +19,27 @@
 
 ## Objective
 
-The objective of this project is to build a simple chatbot and deploy it on a web-page using "Flask".
-The bot was created using Pytorch and exemplifies how a neural net works. The project overall is very simple and provides an understanding of these subjects.
-
-
+The objective of this project is to build an interactive USA, Brazil and worldwide corona virus dashboard using the Dash library and setting it up in a remote server for anyone to see.
 
 
 ## Process
-- Create a JSON file with the intends;
-- Transform these words to a language the machine can understand;
-- Apply neural net;
-- Create a train file and check if the results are valid;
-- Add the chatbot to a webpage using Flask as backend;
+- Create virtual environment;
+- Get the data from repositories and web sites;
+- Data cleaning and transformation;
+- Smooth the data via LOWESS method;
+- Prediction modeling;
+- Encapsulate into classes;
+- Build dashboard with Dash;
+- Deploy dashboard via Python Anywhere;
 
 
-## Results
-After training the bot and implementing Flask:
+## Virtual Environment
+******
 
+## Getting the data
+The data for USA and world can be found in the <a href="https://github.com/CSSEGISandData/COVID-19" target='_blank'>John Hopkins COVID-19 GitHub repository. </a> While for Brazil the data is available in CSV format at <a href="https://covid.saude.gov.br/" target='_blank'>Ministry of Health website.</a> The data keeps track of all cases and deaths sorted by either country or state, therefor, containing all information needed for the project.
 
+## Data cleaning
      
 We named the bot as "Helo" and she was trained to understand questions asked in Portuguese:
 <br>
