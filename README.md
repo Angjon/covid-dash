@@ -8,7 +8,7 @@
 ## Project Status
 <p>:heavy_check_mark: Complete<p>
 
-<p>Dashboard available at: <a href="http://jonasangulski.pythonanywhere.com/" target='_blank'>Corona Dashboard </a> <p>
+<p> Dashboard available at: <a href="http://jonasangulski.pythonanywhere.com/" target="blank">Corona Dashboard </a> <p>
 
 ## Table of Contents 
 - [Objective](#objective)
@@ -21,10 +21,9 @@
 
 The objective of this project is to build an interactive USA, Brazil and worldwide corona virus dashboard using the Dash library and setting it up in a remote server for anyone to see.
 
-
 ## Process
 - Create virtual environment;
-- Get the data from repositories and web sites;
+- Get the data from repositories and websites;
 - Data cleaning and transformation;
 - Smooth the data via LOWESS method;
 - Prediction modeling;
@@ -32,19 +31,11 @@ The objective of this project is to build an interactive USA, Brazil and worldwi
 - Build dashboard with Dash;
 - Deploy dashboard via Python Anywhere;
 
-
-## Virtual Environment
-idk wtf imdoin
-
 ## Getting the data
-The data for USA and world can be found in the <a href="https://github.com/CSSEGISandData/COVID-19" target='_blank'>John Hopkins COVID-19 GitHub repository. </a> While for Brazil the data is available in CSV format at <a href="https://covid.saude.gov.br/" target='_blank'>Ministry of Health website.</a> The data keeps track of all cases and deaths sorted by either country or state, therefor, containing all information needed for the project.
+The data for USA and world can be found in the <a href="https://github.com/CSSEGISandData/COVID-19" target="blank"> John Hopkins COVID-19 GitHub repository. </a> While for Brazil the data is available in CSV format at <a href="https://covid.saude.gov.br/" target="blank"> Ministry of Health website.</a> The data keeps track of all cases and deaths sorted by either country or state, therefor, containing all information needed for the project. After getting the data and storing it locally, a dictionary of dataframes is created.
 
 ## Data cleaning
-     
-We named the bot as "Helo" and she was trained to understand questions asked in Portuguese:
-<br>
-<img src="https://user-images.githubusercontent.com/85833899/140935335-9855d0a5-4021-4fc4-ada1-34d26e4ff246.PNG" alt="pawn" width="30%" border="0">
-
+In order for further analysis and data treatment, it is required to have all dataframes in a specific format, having the dates as indexes and countries/states as headers. Using pandas and encapsulating each step into a function, we're able to store once again into a dictionary the cleaned data.
 
 ## Learning Process
 
