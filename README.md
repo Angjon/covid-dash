@@ -35,30 +35,31 @@ The objective of this project is to build an interactive USA, Brazil and worldwi
 The data for USA and world can be found in the <a href="https://github.com/CSSEGISandData/COVID-19" target="blank"> John Hopkins COVID-19 GitHub repository. </a> While for Brazil the data is available in CSV format at <a href="https://covid.saude.gov.br/" target="blank"> Ministry of Health website.</a> The data keeps track of all cases and deaths sorted by either country or state, therefor, containing all information needed for the project. After getting the data and storing it locally, a dictionary of dataframes is created.
 
 ## Data cleaning
-In order for further analysis and data treatment, it is required to have all dataframes in a specific format, having the dates as indexes and countries/states as headers. Using pandas and encapsulating each step into a function, we're able to store once again into a dictionary the cleaned data.
+In order for further analysis and data treatment, it is required to have all dataframes in a specific format, having the dates as indexes and countries/states as headers. Removing bad data and encapsulating each step into a function, we're able to store once again into a dictionary the cleaned data.
 
-## Learning Process
+## Data Smoothing
+The reported data presents a massive variation due delay factors, like weekends or holidays for example. To counter that, the smoothing method LOWESS (locally weighted scatterplot smoothing) is applied. From the statsmodel package, we import the lowess function, fixing the window size to 15 observations.
 
-### Theory Applied
-- [x] Numpy
-- [x] Pytorch
-- [x] Neural Nets
-- [x] Flask
+## Modeling prediction function
+The covid wave curves resembles itself to a logistic function, presenting an upper and lower asymptotes. With that in mind, we use <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html" target="blank"> scipy least_squared </a> function to stipulate the parameters of the function that would best fit the wave curve. Therefor, being able to predict future values.
+
+## Encapsulate into classes
+In this step it's brought together all the tasks done previously. From getting the data and smoothing to training and predicting it. Two classes are created to summarize the job done, the CasesModel and DeathsModel, since all the previous code was executed as methods, putting them together was simple.
+
+## Build dashboard with Dash
+Now using a combination of two libraries, <a href="https://plotly.com/python/" target="blank"> Plotly </a> and <a href="https://dash.plotly.com/" target="blank"> Dash </a> we are able to build the dashboard. Using Plotly to create the interactive visualizations and Dash to properly build the dashboard using its tools such as data tables, dropdowns, tabs and radio buttons.
+
+## Deploy dashboard
 
 ### Challenges
-- Training the bot to understand the words was challenging, especially because Portuguese have some special characters like (^~`´).
+- 
 
 ### Improvements
- - The JSON file does not have much info, we could improve this in order to get better responses from the bot.
+ - 
  
-
 ## Authors
 Jonas Angulski <br>
 
-  
-  sources: https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
-  
-  Huge thanks to <a href="https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA" target='_blank'>Python Engineer </a> for providing an awesome Pytorch tutorial.
   
 
   
