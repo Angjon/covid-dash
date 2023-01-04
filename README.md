@@ -52,12 +52,12 @@ Now using a combination of two libraries, <a href="https://plotly.com/python/" t
 In order to make the dashboard available to the public, it was used <a href="https://www.pythonanywhere.com/" target="blank"> Python Anywhere </a> as a remote server. After moving all the code files previously encapsulated into classes to Python Anywhere alongside with the csv dataset files, the server was ready to be deployed, making it available <a href="https://www.pythonanywhere.com/" target="blank"> here.</a>
 
 ### Challenges
--The data wrangling for Brazil required special attention since it had to be shaped exactly like the USA and Global data so it could be futher developed.
-<p>-First contact with HTML and CSS proved to be quite the struggle.<p>
+- The data wrangling for Brazil required special attention since it had to be shaped exactly like the USA and Global data so it could be futher developed.
+- First contact with HTML and CSS proved to be quite the struggle.
 
 ### Improvements
- - Originally the data was suposed to be updated every single day, as long as the server was online. However, after adding Brazil data set, this idea had to be descarted, it would be required web scraping for it to be applied.
- - Add cloropeth map for Brazil (currently only USA and global maps are available).
+- Originally the data was suposed to be updated every single day, as long as the server was online. However, after adding Brazil data set, this idea had to be descarted, it would be required web scraping for it to be applied.
+- Add cloropeth map for Brazil (currently only USA and global maps are available).
  
 ## Authors
 <p>Jonas Angulski <p>
