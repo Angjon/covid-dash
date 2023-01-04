@@ -52,7 +52,7 @@ In order to make the dashboard available to the public, it was used <a href="htt
 
 ### Results
 With the dashboard deployed, it's now possible to visualize and interact with it. Having three different tabs USA, World and Brazil presenting either state or country, it can be easily navigated to show the covid data for that region.
-![dash!](images/dash.JPG)
+<p align="center"><img src="images/dash.png" alt="Dash" width="400px" border="0"><br /></p>
 
 ### Challenges
 - The data wrangling for Brazil required special attention since it had to be shaped exactly like the USA and Global data so it could be futher developed.
