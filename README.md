@@ -49,11 +49,11 @@ In this step it's brought together all the tasks done previously. From getting t
 Now using a combination of two libraries, <a href="https://plotly.com/python/" target="blank"> Plotly </a> and <a href="https://dash.plotly.com/" target="blank"> Dash </a> we are able to build the dashboard. Using Plotly to create the interactive visualizations and Dash to properly build the dashboard using its tools such as data tables, dropdowns, tabs and radio buttons.
 
 ## Deploy dashboard
-In order to make the dashboard available to the public, it was used <a href="https://www.pythonanywhere.com/" target="blank"> Python Anywhere </a> as a remote server.Moving all the code files previously encapsulated into classes to Python Anywhere alongside with the csv dataset files, the server was deployed sucessfully, making it available <a href="https://www.pythonanywhere.com/" target="blank"> here </a>
+In order to make the dashboard available to the public, it was used <a href="https://www.pythonanywhere.com/" target="blank"> Python Anywhere </a> as a remote server. After moving all the code files previously encapsulated into classes to Python Anywhere alongside with the csv dataset files, the server was ready to be deployed, making it available <a href="https://www.pythonanywhere.com/" target="blank"> here.</a>
 
 ### Challenges
 -The data wrangling for Brazil required special attention since it had to be shaped exactly like the USA and Global data so it could be futher developed.
--First contact with HTML and CSS proved to be quite the struggle.
+<p>-First contact with HTML and CSS proved to be quite the struggle.<p>
 
 ### Improvements
  - Originally the data was suposed to be updated every single day, as long as the server was online. However, after adding Brazil data set, this idea had to be descarted, it would be required web scraping for it to be applied.
@@ -62,9 +62,9 @@ In order to make the dashboard available to the public, it was used <a href="htt
 ## Authors
 <p>Jonas Angulski <p>
 
-<p> Source: <a href="https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python" target="blank"></a>
+<p> Source: <a href="https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python" target="blank"> https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python </a>
 
-<p> Massive thanks to <a href="https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python" target="blank"> Teddy Petrou </a> for creating this incredible course.
+<p> Massive thanks to <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAA3JtjYBeWjRHBALMHl65mUWUw4ZzK2_aOM&keywords=teddy%20petrou&origin=RICH_QUERY_SUGGESTION&position=0&searchId=3292a591-d233-414d-bf2a-2af3d55dd094&sid=tN7" target="blank"> Teddy Petrou </a> for creating this incredible course.
   
 
   
