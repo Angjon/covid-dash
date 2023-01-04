@@ -67,7 +67,7 @@ With the dashboard deployed, it's now possible to visualize and interact with it
 
 <p> Source: <a href="https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python" target="blank"> https://www.dunderdata.com/build-an-interactive-data-analytics-dashboard-with-python </a>
 
-<p> Massive thanks to <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAA3JtjYBeWjRHBALMHl65mUWUw4ZzK2_aOM&keywords=teddy%20petrou&origin=RICH_QUERY_SUGGESTION&position=0&searchId=3292a591-d233-414d-bf2a-2af3d55dd094&sid=tN7" target="blank"> Teddy Petrou </a> for creating this incredible course.
+<p> Massive thanks to <a href="https://www.linkedin.com/in/tedpetrou/" target="blank"> Teddy Petrou </a> for creating this incredible course.
   
 
   
